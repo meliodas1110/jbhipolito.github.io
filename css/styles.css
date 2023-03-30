@@ -1,0 +1,172 @@
+
+.navbar-brand{
+    color: cyan;
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    color: red;
+}
+
+.fa-bars{
+    color: cyan;
+    font-size: 28px;
+}
+
+.nav-link{
+    color: lightblue;
+}
+
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+    #navmenu.collapse.show {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: rgba(33, 37, 41, 0.9);
+    }
+    
+    #navmenu.show .nav-item {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .navbar-nav {
+        margin: 0 auto;
+        width: fit-content;
+        text-align: center;
+    }
+    
+    .btn-resume{
+        padding: 5px;
+    }
+}
+
+.btn-resume{
+    color: cyan;
+    border: 1px solid cyan;
+    border-radius: 10px;
+}
+
+.btn-resume:hover{
+    text-decoration: none;
+    color: cyan;
+    background-color: rgba(0, 255, 255, .2);
+}
+
+.btn-resume:visited{
+    color: cyan;
+}
+
+.btn-resume:focus{
+    color: cyan;
+}
+
+#content-sec{
+    margin-top: 50px;
+}
+
+.myname{
+    color: 	#39ace7;
+    font-size: 80px;
+}
+
+.my-pic{
+    border-radius: 10px;
+    outline: 150px solid rgba(0, 255, 255, 0.5);
+    outline-offset: -150px;
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.my-pic:hover{
+    outline: none;
+}
+
+.pic-div{
+    border: 10px solid red;
+}
+
+.webdev{
+    color: #bcfefe;
+}
+
+.lead{
+    width: 70%;
+}
+
+.about{
+    font-size: 20px;
+}
+
+.font-cyan{
+    color: cyan;
+}
+
+.exp-company{
+    color: #fff;
+    font-weight: 400;
+}
+
+.exp-company h3{
+    font-weight: 900;
+}
+
+.exp-position{
+    color: #51c2fa;
+}
+
+.exp-year{
+    color: #fff;
+}
+
+.exp-job-desc{
+    color: #fff;
+}
+
+hr{
+    width: 50%;
+}
+
+.proj-img:hover {
+    background-color: #000000;
+    border: 1px solid cyan;
+    box-shadow: 0 0 20px cyan;
+}
+
+#contact-sec{
+    display: flex;
+    justify-content: center;
+    padding-top: 500px;
+}
+
+.list-group-item{
+    border: 1px solid white;
+}
+
+#footer{
+    padding: 70px;
+    text-align: center;
+}
+
+.footer-icons{
+    font-size: 25px;
+    padding: 20px 10px;
+}
+
+.footer-icons:hover{
+    color: cyan;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
